@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#193b30">
+    <meta
+      name="description"
+      content="Discover Family Corner BNB, a welcoming place to stay in Mwanza, Tanzania. Explore the demo and send a stay request."
+    >
+    <title>Family Corner BNB | A warmer stay in Mwanza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <div class="demo-note">
+      <span class="demo-note__dot" aria-hidden="true"></span>
+      <span data-i18n="demoNote">Presentation preview · Images and property details are placeholders pending confirmation</span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Family Corner BNB home">
+        <span class="brand__mark" aria-hidden="true">FC</span>
+        <span class="brand__name">Family Corner <span>BNB</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only" data-i18n="menu">Open menu</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#stay" data-i18n="navStay">The stay</a>
+        <a href="#about" data-i18n="navAbout">Our story</a>
+        <a href="#location" data-i18n="navLocation">Location</a>
+        <a href="#faq" data-i18n="navFaq">FAQs</a>
+        <div class="language-switch" role="group" aria-label="Choose language">
+          <button type="button" data-language="en" aria-pressed="true">EN</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-language="sw" aria-pressed="false">SW</button>
+        </div>
+        <a class="nav-cta" href="#booking" data-i18n="navBook">Plan your stay <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__image" role="img" aria-label="Illustrative hotel room interior"></div>
+        <div class="hero__shade"></div>
+        <div class="hero__content">
+          <p class="eyebrow eyebrow--light"><span></span><span data-i18n="heroEyebrow">A WELCOMING STAY IN MWANZA</span></p>
+          <h1 id="hero-title" data-i18n="heroTitle">A little more<br>like <em>home.</em></h1>
+          <p class="hero__copy" data-i18n="heroCopy">Slow down, settle in, and feel welcome. Find a calm, comfortable place to stay in the heart of Mwanza.</p>
+          <div class="hero__actions">
+            <a class="button button--gold" href="#booking"><span data-i18n="heroCta">Enquire about a stay</span><span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link--light" href="#stay"><span data-i18n="heroSecondary">Explore the stay</span><span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero__caption"><span data-i18n="heroCaption">A thoughtful place to pause</span><span>MWANZA · TANZANIA</span></div>
+        <div class="hero__index" aria-hidden="true">01 <span></span> 03</div>
+      </section>
+
+      <div class="welcome-bar">
+        <span class="welcome-bar__icon" aria-hidden="true">✳</span>
+        <p data-i18n="welcomeLine">Made for work trips, family visits, and the in-between moments.</p>
+        <a href="#about"><span data-i18n="welcomeLink">A little about us</span><span aria-hidden="true">↗</span></a>
+      </div>
+
+      <section class="section stay-section" id="stay" aria-labelledby="stay-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span><span data-i18n="stayEyebrow">REST EASY</span></p>
+            <h2 id="stay-title" data-i18n="stayTitle">Room to feel<br><em>at ease.</em></h2>
+          </div>
+          <p class="section-heading__copy" data-i18n="stayCopy">A comfortable private space with the essentials for a restful stay. Room information and rates shown here are a presentation draft.</p>
+        </div>
+
+        <article class="room-card">
+          <div class="room-gallery">
+            <figure class="room-gallery__main">
+              <img src="room-main.webp" alt="Illustrative bedroom with a neatly made bed and warm neutral tones" loading="lazy">
+              <figcaption data-i18n="imageNote">Illustrative image · actual room photos to be added</figcaption>
+            </figure>
+            <div class="room-gallery__side">
+              <img src="room-bed.webp" alt="Illustrative king-size bed in a bright room" loading="lazy">
+              <img src="room-hero.webp" alt="Illustrative room with a bedroom and sitting area" loading="lazy">
+            </div>
+          </div>
+          <div class="room-info">
+            <div class="room-info__top">
+              <div>
+                <p class="eyebrow"><span></span><span data-i18n="roomType">THE ROOM</span></p>
+                <h3 data-i18n="roomName">Standard Room</h3>
+              </div>
+              <span class="room-number">01</span>
+            </div>
+            <p class="room-info__copy" data-i18n="roomCopy">A private, self-contained room for a peaceful night and an easy start to the day.</p>
+            <div class="room-facts">
+              <span><span aria-hidden="true">⌂</span><span data-i18n="roomFact1">Private bathroom</span></span>
+              <span><span aria-hidden="true">♧</span><span data-i18n="roomFact2">Up to 2 guests*</span></span>
+              <span><span aria-hidden="true">◷</span><span data-i18n="roomFact3">Check-in from 12 PM*</span></span>
+            </div>
+            <div class="room-info__bottom">
+              <p><strong>TSh 150,000*</strong><span data-i18n="rateNote">Rate period to be confirmed</span></p>
+              <a class="text-link" href="#booking"><span data-i18n="roomCta">Ask about this room</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <p class="section-footnote" data-i18n="roomFootnote">*Guest capacity, check-in time, rate and all listed room details are subject to confirmation by the property owner.</p>
+      </section>
+
+      <section class="essentials" aria-labelledby="essentials-title">
+        <div class="essentials__intro">
+          <p class="eyebrow eyebrow--light"><span></span><span data-i18n="essentialsEyebrow">THE LITTLE THINGS</span></p>
+          <h2 id="essentials-title" data-i18n="essentialsTitle">Comfort in<br>the details.</h2>
+          <p data-i18n="essentialsCopy">Thoughtful essentials to help you settle in and make the most of your time away.</p>
+        </div>
+        <div class="amenities">
+          <div class="amenity"><span class="amenity__icon" aria-hidden="true">⌁</span><span data-i18n="amenityWifi">Wi-Fi</span><small data-i18n="amenityWifiNote">Stay connected</small></div>
+          <div class="amenity"><span class="amenity__icon" aria-hidden="true">♨</span><span data-i18n="amenityWater">Hot water</span><small data-i18n="amenityWaterNote">A refreshing start</small></div>
+          <div class="amenity"><span class="amenity__icon" aria-hidden="true">❋</span><span data-i18n="amenityParking">Secure parking</span><small data-i18n="amenityParkingNote">Peace of mind</small></div>
+          <div class="amenity"><span class="amenity__icon" aria-hidden="true">☼</span><span data-i18n="amenityHousekeeping">Housekeeping</span><small data-i18n="amenityHousekeepingNote">Care in the details</small></div>
+        </div>
+        <p class="essentials__note" data-i18n="amenitiesNote">Draft amenities · availability to be confirmed</p>
+      </section>
+
+      <section class="story-section section" id="about" aria-labelledby="story-title">
+        <div class="story-image">
+          <img src="room-story.webp" alt="Illustrative warm and inviting studio interior" loading="lazy">
+          <span data-i18n="storyImageNote">A glimpse of the feeling · illustrative image</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow"><span></span><span data-i18n="storyEyebrow">WELCOME TO OUR CORNER</span></p>
+          <h2 id="story-title" data-i18n="storyTitle">Come as you are.<br><em>Feel at home.</em></h2>
+          <p data-i18n="storyParagraph1">Family Corner BNB is a welcoming place to stay in Mwanza, created for guests who value peace, cleanliness, and friendly service.</p>
+          <p data-i18n="storyParagraph2">Whether you're travelling for work, visiting family, or exploring the city, we want your time here to feel easy and comfortable.</p>
+          <a class="text-link" href="#booking"><span data-i18n="storyCta">We'd love to welcome you</span><span aria-hidden="true">↗</span></a>
+          <div class="story-signoff"><span aria-hidden="true">FC</span><span data-i18n="storySignoff">A warm welcome, every time.</span></div>
+        </div>
+      </section>
+
+      <section class="booking-section" id="booking" aria-labelledby="booking-title">
+        <div class="booking-intro">
+          <p class="eyebrow eyebrow--light"><span></span><span data-i18n="bookingEyebrow">YOUR NEXT STAY STARTS HERE</span></p>
+          <h2 id="booking-title" data-i18n="bookingTitle">Let's make<br><em>room for you.</em></h2>
+          <p data-i18n="bookingCopy">Share a few details and we'll help you plan your stay. This demo sends your enquiry to WhatsApp for the property to confirm.</p>
+          <div class="booking-contact">
+            <span class="booking-contact__icon" aria-hidden="true">↗</span>
+            <span><small data-i18n="bookingContactLabel">QUESTIONS? GET IN TOUCH</small><a href="tel:+255793950555">+255 793 950 555</a></span>
+          </div>
+          <p class="contact-note" data-i18n="contactNote">Contact number supplied for this demo · owner to confirm before launch.</p>
+        </div>
+        <form class="booking-form" id="booking-form">
+          <div class="form-heading">
+            <span data-i18n="formStep">A QUICK ENQUIRY</span>
+            <span aria-hidden="true">01 — 03</span>
+          </div>
+          <label>
+            <span data-i18n="labelName">Your name</span>
+            <input name="name" type="text" autocomplete="name" required placeholder="e.g. Amina John" data-i18n-placeholder="placeholderName">
+          </label>
+          <div class="form-row">
+            <label>
+              <span data-i18n="labelCheckin">Check-in</span>
+              <input name="checkin" type="date" required>
+            </label>
+            <label>
+              <span data-i18n="labelCheckout">Check-out</span>
+              <input name="checkout" type="date" required>
+            </label>
+          </div>
+          <label>
+            <span data-i18n="labelGuests">Number of guests</span>
+            <select name="guests" required>
+              <option value="1" data-i18n="guestOne">1 guest</option>
+              <option value="2" selected data-i18n="guestTwo">2 guests</option>
+              <option value="3" data-i18n="guestThree">3 guests</option>
+              <option value="4" data-i18n="guestFour">4 guests</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="labelMessage">Anything else? <small>(optional)</small></span>
+            <textarea name="message" rows="2" placeholder="Share a note or question" data-i18n-placeholder="placeholderMessage"></textarea>
+          </label>
+          <button class="button button--gold button--full" type="submit"><span data-i18n="formSubmit">Continue on WhatsApp</span><span aria-hidden="true">↗</span></button>
+          <p class="form-privacy" data-i18n="formPrivacy">Your message opens in WhatsApp. No payment is collected on this demo site.</p>
+          <p class="form-error" id="form-error" role="alert" hidden></p>
+        </form>
+      </section>
+
+      <section class="location-section section" id="location" aria-labelledby="location-title">
+        <div class="location-mark" aria-hidden="true"><span>MWZ</span><span class="location-mark__line"></span><span>TZ</span></div>
+        <div class="location-copy">
+          <p class="eyebrow"><span></span><span data-i18n="locationEyebrow">A PLACE TO CALL YOUR BASE</span></p>
+          <h2 id="location-title" data-i18n="locationTitle">In the heart<br>of <em>Mwanza.</em></h2>
+          <p data-i18n="locationCopy">Stay in Mwanza, Tanzania, and make the city your own. The exact address and map pin will be added once confirmed.</p>
+          <span class="location-pending" data-i18n="locationPending">Exact property location to be confirmed</span>
+        </div>
+        <div class="location-photo">
+          <img src="room-location.webp" alt="Illustrative interior detail" loading="lazy">
+          <span data-i18n="locationImageNote">Illustrative image · property photography to come</span>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="faq-intro">
+          <p class="eyebrow"><span></span><span data-i18n="faqEyebrow">GOOD TO KNOW</span></p>
+          <h2 id="faq-title" data-i18n="faqTitle">A few things<br><em>to know.</em></h2>
+          <p data-i18n="faqCopy">Have another question? Send us a message and we'll be happy to help.</p>
+          <a class="text-link" href="https://wa.me/255793950555" target="_blank" rel="noopener noreferrer"><span data-i18n="faqCta">Ask us on WhatsApp</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary><span data-i18n="faqQ1">How do I enquire about a room?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <p data-i18n="faqA1">Use the enquiry form on this page to send your preferred dates and guest details by WhatsApp. The property will confirm availability and the final rate.</p>
+          </details>
+          <details>
+            <summary><span data-i18n="faqQ2">What time are check-in and check-out?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <p data-i18n="faqA2">The draft details suggest check-in from 12 noon and check-out by 11 AM. Please confirm these times with the property before your visit.</p>
+          </details>
+          <details>
+            <summary><span data-i18n="faqQ3">How can I pay?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <p data-i18n="faqA3">Payment methods and deposit requirements are being confirmed. Please only use payment instructions shared directly by the property after your enquiry.</p>
+          </details>
+          <details>
+            <summary><span data-i18n="faqQ4">Can I book a longer stay?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <p data-i18n="faqA4">Send an enquiry with your dates and we'll help check what works. Any long-stay availability or discounts need to be confirmed by the property.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand brand--footer" href="#home">
+          <span class="brand__mark" aria-hidden="true">FC</span>
+          <span class="brand__name">Family Corner <span>BNB</span></span>
+        </a>
+        <p data-i18n="footerLine">A warm welcome awaits in Mwanza.</p>
+        <a class="footer-contact" href="https://wa.me/255793950555" target="_blank" rel="noopener noreferrer"><span data-i18n="footerWhatsApp">Chat with us</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> Family Corner BNB</span>
+        <span data-i18n="footerDemo">Presentation preview · details subject to confirmation</span>
+        <a href="#home" data-i18n="backTop">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
